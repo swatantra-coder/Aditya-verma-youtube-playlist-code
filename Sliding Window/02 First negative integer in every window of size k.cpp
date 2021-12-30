@@ -3,8 +3,8 @@ Time Complexity: O(n)
 Auxiliary Space: O(k)
 */
 vector<long long> printFirstNegativeInteger(long long int A[],long long int N, long long int K) {
- long long i;
- long long j;
+ long long i=0;
+ long long j=0;
  vector<long long> ans;
  list<long long> l;
   while (j<N){
